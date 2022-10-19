@@ -3,7 +3,7 @@ import cmath
 import math
 import pandas as pd
 import sympy as sym
-"""The Code works, but it keep spinning between values and not converging"""
+"""The Code works, but it keep spinning between values and not converging. It will be fixed at a later point"""
 
 filename = "Matrix.xlsx"
 Z_real = pd.read_excel(filename, sheet_name = 'Z_real', index_col = [0])
